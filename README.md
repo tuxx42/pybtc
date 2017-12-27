@@ -55,6 +55,11 @@ Type "client.start()" to start the client
 ```
 
 
-### protocol
+#### protocol specification
 
 The protocol https://en.bitcoin.it/wiki/Protocol_documentation
+
+
+#### tributes
+
+The binary protocol is implemented in bitcoin.py and was borrowed from https://github.com/jbcayrou/scapy-bitcoin. A special shoutout to jbcayrou for that! 
