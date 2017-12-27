@@ -4,7 +4,7 @@
 
 The requirements are listed in requirements.txt and can be installed using
 
-```
+```python
 pip3 install -r requirements.txt
 ```
 
@@ -20,7 +20,7 @@ BitcoinClient is essentially merely a threaded event loop which polls streaming 
 To start the client thread, run client.start()
 
 
-```
+```python
 python3 main.py
 Welcome to Scapy (3.0.0)
 Type "client.start()" to start the client
