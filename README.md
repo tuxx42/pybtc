@@ -5,19 +5,23 @@
 The requirements are listed in requirements.txt and can be installed using
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
+
+The code has only been tested to work on python3
+
 
 ## starting the client
 
 When starting the main.py, you will drop into a shell with a object client, which is instance of BitcoinClient.
 
-BitcoinClient is essentially merely a threaded event loop which polls streaming events from a connection socket to which event handlers are hooked.
+BitcoinClient is essentially merely a threaded event loop which polls streaming events from a connection socket to which event handlers are hooked. Currently the ip address of a full node has been hardcoded in main.py, which is probably not the best idea :D
 
 To start the client thread, run client.start()
 
 
 ```
+python3 main.py
 Welcome to Scapy (3.0.0)
 Type "client.start()" to start the client
 >>> 
