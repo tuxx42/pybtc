@@ -53,3 +53,8 @@ Type "client.start()" to start the client
      start_height= 0
      relay= 1
 ```
+
+
+### protocol
+
+The protocol https://en.bitcoin.it/wiki/Protocol_documentation
